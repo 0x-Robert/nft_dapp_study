@@ -88,6 +88,25 @@
 			{
 				"inputs": [
 					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "animalTypes",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "address",
 						"name": "to",
 						"type": "address"
@@ -477,7 +496,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/bak.sol": "MintAnimalToken"
+			"MintAnimalToken.sol": "MintAnimalToken"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -587,12 +606,12 @@
 				"dweb:/ipfs/Qmct36zWXv3j7LZB83uwbg7TXwnZSN1fqHNDZ93GG98bGz"
 			]
 		},
-		"contracts/bak.sol": {
-			"keccak256": "0xf305248dd208e4bd6dafcc8c88a6e1cc5258a72a0092fdffcfd8eb08280073b9",
+		"MintAnimalToken.sol": {
+			"keccak256": "0xd90d67ed5121fa699b294cdea9ff46c3b315553f059b0a58be22c0c31e586cc2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://30d4f7212f4c00f2b93e5c89cadda7875c87826d152eed7bd9565287d04af434",
-				"dweb:/ipfs/QmPW9kP5Seb7fpVNi8sFtq9Wq7C3XLitcG5njBypBFd5RU"
+				"bzz-raw://ff1ed927d335c499f1e09c3934f141caa666dd5d8b9b802698323bed76688bdb",
+				"dweb:/ipfs/QmQX3MhYoQ6bcLKiFGriYQ3gANs242dZ1YZhyEcGd3pTzt"
 			]
 		}
 	},
