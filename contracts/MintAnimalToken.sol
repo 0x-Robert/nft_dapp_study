@@ -13,6 +13,14 @@ contract MintAnimalToken is ERC721Enumerable {
     //앞 uint256은 animalTokenId 뒤 uint256은 animalTypes 
     mapping(uint256 => uint256) public animalTypes; 
 
+
+        // function tokenURI(
+    // uint256 animalTokenId
+    // ) public view
+    //   override(ERC721, ERC721URIStorage) returns (string memory) {
+    //     return super.tokenURI(animalTokenId);
+    // }
+    
     function mintAnimalToken() public {
         //tokenid가 유일해야 NFT라고 할 수 있다. 
         uint256 animalTokenId = totalSupply() + 1;
