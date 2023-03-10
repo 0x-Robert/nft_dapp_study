@@ -64,7 +64,7 @@ contract SaleAnimalToken {
 
     }
 
-    //구매 컨트랙트 
+    //구매 함수 remix에서는 transact가 빨간색으로 보인다. 이유는 payable이 있기 때문이다. 
     function purchaseAnimalToken(uint256 _animalTokenId) public payable{
         //판매 가격 변수 설정 
         uint256 price = animalTokenPrices[_animalTokenId];
