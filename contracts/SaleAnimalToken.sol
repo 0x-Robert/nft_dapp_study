@@ -14,7 +14,7 @@ import "./MintAnimalToken.sol";
 // MintAnimalToken의 setApprovedForAll 함수에서 operator로 판매 컨트랙트주소를 넣고 bool값에 true로 권한을 허용해줘야함 
 // 이후 isApprovedForAll을 실행해준다. owner 계정과 판매컨트랙트 계정을 입력해준다. 
 // 이후 SaleAnimalToken의 setForSaleAnimalToken함수를 호출한다.  가격과 토큰 아이디를 설정한다. 
-// 
+
 
 
 contract SaleAnimalToken {
@@ -117,5 +117,7 @@ contract SaleAnimalToken {
         return onSaleAnimalTokenArray.length;
     }
 
-    
+    function getAnimalTokenPrice(uint256 _animalTokenId) view public returns (uint256){
+        return animalTokenPrices[_animalTokenId];
+    }
 }
